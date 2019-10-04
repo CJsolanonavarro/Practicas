@@ -16,7 +16,7 @@ Envio de datos de sensor LDR y humedad conectados a las entradas analógicas de 
 
 ```python
 # Programa en python
-rom time import sleep, strftime, time
+from time import sleep, strftime, time
 import serial, time
 
 arduino = serial.Serial('/dev/ttyACM0', 9600)
